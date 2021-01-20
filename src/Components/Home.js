@@ -20,7 +20,7 @@ const Home = () => {
         <div class="d-none d-lg-block">
           <Image
             className="bigScreenPic"
-            src="../assets/Headshot-top.jpg"
+            src={require("../Assets/Headshot-top.jpg")}
             alt="Headshot by Charlotte Wellings"
             fluid
           />
