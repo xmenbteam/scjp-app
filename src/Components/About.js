@@ -39,7 +39,7 @@ const About = () => {
           </div>
           <div class="row dev d-flex">
             {/* SMALL SCREEN PIC GUY */}
-            <div class="col-sm-8 d-block d-md-none">
+            <div class="col-8 d-block d-md-none mx-auto">
               <Image
                 className="pic guitar smallGuitar"
                 src="../assets/Sammusicpic.jpg"

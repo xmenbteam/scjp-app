@@ -6,7 +6,7 @@ const Dev = () => {
     <div class="dev container-fluid" id="dev">
       <h1 class="title dev-title text-center">sam the dev</h1>
       <div class="row dev d-flex">
-        <div class="col-md-4 col-sm-6 col-12 mb-1 devpiccont">
+        <div class="col-md-4 col-sm-6 col-12 mb-1 mx-auto">
           <Image
             class="pic devpic"
             src="../assets/samdevpic.jpeg"

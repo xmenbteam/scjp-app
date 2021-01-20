@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <div class="d-none d-lg-block">
           <Image
-            className="bigScreenPic pic"
+            className="bigScreenPic"
             src="../assets/Headshot-top.jpg"
             alt="Headshot by Charlotte Wellings"
             fluid

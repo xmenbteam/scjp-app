@@ -48,6 +48,7 @@ body {
 
 .navbar {
   background-color: #ffd166ff;
+  border-bottom: 2px solid #073b4cff;
   /* padding: 0 !important; */
 }
 
@@ -86,7 +87,7 @@ header {
   position: relative;
   top: 2vmin;
   width: 30vmin;
-  height: 13em;
+  height: 14.5em;
   background: #ffd166ff;
 
   text-align: left;
@@ -94,6 +95,9 @@ header {
   color: (--dark-green);
   border-radius: 10%;
   padding-left: 1vmin;
+
+  border-style: solid;
+  border-color: #073b4cff;
 }
 
 .panel-item {
@@ -117,8 +121,8 @@ header {
 
 .bigScreenPic {
   position: relative;
-  bottom: 14em;
-  margin-bottom: -14em;
+  bottom: 14.5em;
+  margin-bottom: -14.5em;
 }
 
 /* ABOUT ME SECTION */
@@ -131,6 +135,10 @@ header {
 .guitar {
   margin-bottom: 1vmin;
   max-height: 30vmin;
+}
+
+.smallGuitar {
+  height: 55vmin;
 }
 
 .about-me {
@@ -158,7 +166,6 @@ header {
   text-align: center;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-
   margin-bottom: 5rem;
 }
 
@@ -174,13 +181,8 @@ header {
 .devpic {
   /* height: 19rem; */
   margin-bottom: 1rem;
-  border-radius: 5%;
   width: 80vmin;
   margin-bottom: 1vmin;
-}
-
-.devpiccont {
-  text-align: center;
 }
 
 .logo-container {
@@ -205,6 +207,7 @@ header {
 
 .dev-card {
   margin-top: 1rem;
+  border-radius: 2rem;
 }
 
 /* MUSIC SECTION */
