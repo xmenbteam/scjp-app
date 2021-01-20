@@ -77,10 +77,14 @@ header {
 
 .welcome-pic {
   width: 100%;
+  border-style: solid;
+  border-color: #073b4cff;
 }
 
 .pic {
   border-radius: 1rem;
+  border-style: solid;
+  border-color: #073b4cff;
 }
 
 .panel {
@@ -183,6 +187,8 @@ header {
   margin-bottom: 1rem;
   width: 80vmin;
   margin-bottom: 1vmin;
+  border-style: solid;
+  border-color: #073b4cff;
 }
 
 .logo-container {
@@ -202,12 +208,15 @@ header {
 .project-cards {
   margin-left: 1rem;
   margin-right: 1rem;
+
   /* max-width: 28rem; */
 }
 
 .dev-card {
   margin-top: 1rem;
-  border-radius: 2rem;
+  border-radius: 2.3rem;
+  border-style: solid;
+  border-color: #073b4cff;
 }
 
 /* MUSIC SECTION */
@@ -221,6 +230,8 @@ header {
   margin-bottom: 1rem;
   border-radius: 2rem;
   box-shadow: 3px 5px #888888;
+  border-style: solid;
+  border-color: #073b4cff;
 }
 
 .music-website-image {
@@ -235,7 +246,9 @@ header {
   /* width: 70vmin; */
   margin-bottom: 1rem;
   background-color: var(--light-blue);
-  border-radius: 2rem;
+  border-radius: 2.3rem;
+  border-style: solid;
+  border-color: #073b4cff;
 }
 
 .card-title {

@@ -8,7 +8,7 @@ const Dev = () => {
       <div class="row dev d-flex">
         <div class="col-md-4 col-sm-6 col-12 mb-1 mx-auto">
           <Image
-            class="pic devpic"
+            className="pic devpic"
             src="../assets/samdevpic.jpeg"
             alt="me and my computer"
             fluid
