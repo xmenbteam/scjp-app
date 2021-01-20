@@ -57,6 +57,19 @@ body {
   border-color: #073b4cff;
 }
 
+.aboutTitle {
+  margin: auto;
+  margin-top: 1vmin;
+  margin-bottom: 1vmin;
+  color: (--dark-green);
+  background-color: #ffd166ff;
+  padding: 1.2vmin;
+  width: 50%;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #073b4cff;
+}
+
 /* NAV SECTION */
 
 .navbar {
