@@ -6,7 +6,7 @@ import guitar from "../Assets/Sammusicpic.jpg";
 const About = () => {
   return (
     <div class="About" id="about">
-      <h1 class="title about-me-title text-center">about me</h1>
+      <h1 class="title text-center">about me</h1>
       <div class="container text-left">
         <div class="about-me-text flex-row-reverse">
           <div class="row dev">
