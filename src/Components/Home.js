@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import headshot from "../Assets/Headshot-top.jpg";
 import Image from "react-bootstrap/Image";
 
 const Home = () => {
@@ -20,7 +21,7 @@ const Home = () => {
         <div class="d-none d-lg-block">
           <Image
             className="bigScreenPic"
-            src={require("../Assets/Headshot-top.jpg")}
+            src={headshot}
             alt="Headshot by Charlotte Wellings"
             fluid
           />
