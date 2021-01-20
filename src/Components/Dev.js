@@ -29,8 +29,10 @@ const Dev = () => {
               most profound lesson - just having someone there with you is
               sometimes all the help you need. Rubber ducking is key.
               <br />
+              <br />
               You can view my Github
-              <a href="https://github.com/xmenbteam">here</a>.<br />
+              <a href="https://github.com/xmenbteam"> here</a>.<br />
+              <br />
               Here are some of the languages I've studied on my course:
               <div class="logo-container d-flex flex-md-row flex-wrap justify-content-center">
                 <div class="square">
@@ -106,17 +108,15 @@ const Dev = () => {
               <div class="card-body">
                 <h5 class="card-title">Pokemon Battler</h5>
                 <p class="card-text">
-                  We made a pokemon battler using JavaScript an that. It was
-                  great.
+                  We made a pokemon battler using JavaScript. It was great.
                 </p>
-                <h6>
-                  View the code{" "}
+                <h6 class="card-text">
                   <a
                     href="https://github.com/xmenbteam/fun-pokemon-battler"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Here!
+                    View the code here!
                   </a>
                 </h6>
               </div>
@@ -135,26 +135,23 @@ const Dev = () => {
                 <h5 class="card-title">NC News</h5>
                 <p class="card-text">
                   A news app. Back-end and front-end created by yours truly.
-                  Almost works.
                 </p>
-                <h6>
-                  View the backend code{" "}
+                <h6 class="card-text">
                   <a
-                    href="https://github.com/xmenbteam/be-nc-news"
+                    href="https://github.com/xmenbteam/be-nc-news-sp"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Here!
+                    View the backend code here!
                   </a>
                 </h6>
-                <h6>
-                  View the front end code{" "}
+                <h6 class="card-text">
                   <a
                     href="https://github.com/xmenbteam/nc-news-frontend"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Here!
+                    View the front end code here!
                   </a>
                 </h6>
               </div>
@@ -164,17 +161,27 @@ const Dev = () => {
             <div class="dev-card d-inline-block shadow-lg">
               <div class="card-img-top">
                 <img
-                  src="../assets/samcjparry.png"
-                  alt="sam parry website"
+                  src="../assets/ArguScreenShot.png"
+                  alt="the argulympics"
                   class="project-image img-fluid border-radius p-4"
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title">This Bloody Website!</h5>
+                <h5 class="card-title">The Argulympics</h5>
                 <p class="card-text">
-                  Created by yours truly using HTML, CSS, JavaScript, and
-                  Bootstrap.
+                  Our final project at the Northcoders Bootcamp. Created using
+                  React Native and Google Firebase. I was mostly in charge of
+                  the game logic and styling.
                 </p>
+                <h6 class="card-text">
+                  <a
+                    href="https://github.com/xmenbteam/react-native-simon"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View the code here!
+                  </a>
+                </h6>
               </div>
             </div>
           </div>

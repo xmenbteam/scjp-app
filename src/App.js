@@ -1,5 +1,6 @@
 import React from "react";
 import { Router } from "@reach/router";
+
 import Navigation from "./Components/Navigation";
 import Home from "./Components/Home";
 import About from "./Components/About";

@@ -3,41 +3,6 @@
   overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 html {
   max-width: 1440px;
   width: 100%;
@@ -67,8 +32,16 @@ body {
 }
 
 .title {
-  color: var(--pink);
-  -webkit-text-stroke: 0.2px black;
+  margin: auto;
+  margin-top: 1vmin;
+  margin-bottom: 1vmin;
+  color: (--dark-green);
+  background-color: #ffd166ff;
+  padding: 1.2vmin;
+  width: 35%;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #073b4cff;
 }
 
 /* NAV SECTION */
@@ -79,15 +52,15 @@ body {
 }
 
 .navBrand {
-  color: var(--orange);
+  color: #ffd166ff;
 }
 
 .navLink {
-  color: var(--orange);
+  color: #ffd166ff;
 }
 
 .toggler {
-  background-color: var(--orange);
+  background-color: #ffd166ff;
 }
 
 /* HOME */
@@ -98,7 +71,7 @@ header {
 }
 
 .cj {
-  color: var(--pink);
+  color: #ef476fff;
 }
 
 .welcome-pic {
@@ -114,7 +87,7 @@ header {
   top: 2vmin;
   width: 30vmin;
   height: 13em;
-  background: var(--orange);
+  background: #ffd166ff;
 
   text-align: left;
   z-index: 1;
@@ -129,7 +102,7 @@ header {
 
 .panel-paragraph {
   background: var(--dark-green);
-  color: var(--orange);
+  color: #ffd166ff;
   padding: 1rem;
   border-radius: 1rem;
 }
@@ -157,7 +130,7 @@ header {
 
 .guitar {
   margin-bottom: 1vmin;
-  height: 30vmin;
+  max-height: 30vmin;
 }
 
 .about-me {
@@ -165,7 +138,7 @@ header {
 }
 
 .hello-world {
-  color: var(--pink);
+  color: #ef476fff;
 }
 
 .panel-paragraph {
@@ -236,10 +209,15 @@ header {
 
 /* MUSIC SECTION */
 
+.websites {
+  margin-top: 3vmin;
+}
+
 .card {
   height: 25rem;
   margin-bottom: 1rem;
   border-radius: 2rem;
+  box-shadow: 3px 5px #888888;
 }
 
 .music-website-image {
@@ -254,18 +232,21 @@ header {
   /* width: 70vmin; */
   margin-bottom: 1rem;
   background-color: var(--light-blue);
+  border-radius: 2rem;
 }
 
 .card-title {
-  color: var(--orange);
+  color: #ffd166ff;
 }
 
 .card-text {
-  color: var(--orange);
+  color: #ffd166ff;
+  border-radius: 2rem;
 }
 
 .card-body {
   background-color: var(--dark-green);
+  border-radius: 2rem;
   opacity: 0.8;
 }
 
