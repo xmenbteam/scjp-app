@@ -4,9 +4,9 @@ import Image from "react-bootstrap/Image";
 
 const Home = () => {
   return (
-    <div id="Home" class="container-fluid text-center">
+    <div id="Home" class="container-fluid text-center mh-100">
       <div class="home-row row">
-        <div class="panel">
+        <div class="panel col-lg-4 col-md-5 col-sm-7 col-9 mx-auto mx-lg-4 ">
           <h1 class="panel-item">
             sam <span class="cj">cj</span> parry
           </h1>
@@ -17,13 +17,22 @@ const Home = () => {
             DEV // <br></br> MUSICIAN // <br></br> VO //
           </h2>
         </div>
-
-        <Image
-          class="welcome"
-          src="../assets/Headshot-top.jpg"
-          alt="Headshot by Charlotte Wellings"
-          fluid
-        />
+        <div class="d-none d-lg-block">
+          <Image
+            className="bigScreenPic pic"
+            src="../assets/Headshot-top.jpg"
+            alt="Headshot by Charlotte Wellings"
+            fluid
+          />
+        </div>
+        <div class="d-block d-lg-none smallScreenPic">
+          <Image
+            className="smallScreenPic pic"
+            src="../assets/Headshot-top.jpg"
+            alt="Headshot by Charlotte Wellings"
+            fluid
+          />
+        </div>
       </div>
     </div>
   );

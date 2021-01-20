@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div class="About" id="about">
       <h1 class="title about-me-title text-center">about me</h1>
-      <div class="container text-center">
+      <div class="container text-left">
         <div class="about-me-text flex-row-reverse">
-          <div class="row dev d-flex justify-content-center">
+          <div class="row dev">
             <div class="col-md-4">
               <Image
-                className="pic thunderbirds"
+                className="pic thunderbirds "
                 src="../assets/thunderbirds.jpeg"
                 alt="an absolute legend"
                 fluid
@@ -37,7 +37,8 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div class="row dev d-flex justify-content-center">
+          <div class="row dev d-flex">
+            {/* SMALL SCREEN PIC GUY */}
             <div class="col-md-4 d-block d-md-none">
               <Image
                 className="pic guitar "
@@ -46,7 +47,7 @@ const About = () => {
               />
             </div>
             <div class="col-md-8">
-              <div class="about-me panel-paragraph text-left">
+              <div class="about-me panel-paragraph">
                 <p class="about-me">
                   As I grew older, I was always torn between science and music,
                   and for about 15 years, music won. I spent my early 20s
@@ -66,12 +67,13 @@ const About = () => {
                   Northcoders was the avenue I chose, and their Bootcamp has
                   given me but a taste of a world I'm very excited to get stuck
                   in to.
-                  <br></br>
-                  <br></br>
+                  <br />
+                  <br />
                   Nice one that mate.
                 </p>
               </div>
             </div>
+            {/* BIG SCREEN PIC GUY */}
             <div class="col-md-4 d-none d-md-block">
               <img
                 class="pic guitar"

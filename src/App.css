@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -109,28 +110,17 @@ header {
 }
 
 .panel {
-  position: absolute;
-  top: 4vmin;
-  left: 8vmin;
+  position: relative;
+  top: 2vmin;
   width: 30vmin;
-  height: 19vmin;
+  height: 13em;
   background: var(--orange);
-  border-radius: 3px;
+
   text-align: left;
-  box-shadow: 0px 25px 42px rbg(0, 0, 0, 0.2);
   z-index: 1;
   color: (--dark-green);
   border-radius: 10%;
   padding-left: 1vmin;
-
-  /* position: absolute;
-  width: 718px;
-  height: 439px;
-  left: 0px;
-  top: 124px;
-
-  background: #ffd166;
-  border-radius: 19px; */
 }
 
 .panel-item {
@@ -148,6 +138,16 @@ header {
   position: relative;
 }
 
+.smallScreenPic {
+  margin-top: 1rem;
+}
+
+.bigScreenPic {
+  position: relative;
+  bottom: 14em;
+  margin-bottom: -14em;
+}
+
 /* ABOUT ME SECTION */
 
 .thunderbirds {
@@ -157,7 +157,7 @@ header {
 
 .guitar {
   margin-bottom: 1vmin;
-  height: 33vmin;
+  height: 30vmin;
 }
 
 .about-me {
@@ -280,108 +280,6 @@ header {
 
 /* FOOTER */
 
-footer {
-  margin-top: 2rem;
-  background-color: var(--dark-green);
+Footer {
+  background-color: #073b4cff !important;
 }
-
-/* Rectangle 1 */
-/* 
-position: absolute;
-width: 718px;
-height: 439px;
-left: 0px;
-top: 124px;
-
-background: #FFD166;
-border-radius: 19px; */
-
-/* sam cj parry */
-
-/* position: absolute;
-width: 322px;
-height: 55px;
-left: 37px;
-top: 152px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 56px;
-line-height: 66px;
-
-color: #000000; */
-
-/* if you know, you know... */
-
-/* position: absolute;
-width: 322px;
-height: 43px;
-left: 37px;
-top: 220px;
-
-font-family: Roboto;
-font-style: italic;
-font-weight: bold;
-font-size: 28px;
-line-height: 33px;
-
-color: #000000; */
-
-/* DEV // MUSICIAN // VO // */
-
-/* position: absolute;
-width: 506px;
-height: 240px;
-left: 37px;
-top: 299px;
-
-font-family: Roboto;
-font-style: italic;
-font-weight: bold;
-font-size: 48px;
-line-height: 56px;
-
-color: #000000; */
-
-/* sam cj parry */
-
-/* position: absolute;
-width: 322px;
-height: 55px;
-left: 198px;
-top: 673px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-
-color: #000000; */
-
-/* DEV // MUSICIAN // VO // */
-
-/* position: absolute;
-width: 242px;
-height: 207px;
-left: 198px;
-top: 749px;
-
-font-family: Roboto;
-font-style: italic;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-
-color: #000000; */
-
-/* Sam_Parry_22 1 */
-
-/* position: absolute;
-width: 1505px;
-height: 1004px;
-left: -394px;
-top: 551px;
-
-background: url(Sam_Parry_22.jpg); */
