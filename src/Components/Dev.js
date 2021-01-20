@@ -141,6 +141,15 @@ const Dev = () => {
                     View the front end code here!
                   </a>
                 </h6>
+                <h6 class="card-text">
+                  <a
+                    href="https://nc-news-frontend.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View the hosted version here!
+                  </a>
+                </h6>
               </div>
             </div>
           </div>
