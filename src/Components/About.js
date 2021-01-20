@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
+import thunderbird from "../Assets/thunderbirds.jpeg";
+import guitar from "../Assets/Sammusicpic.jpg";
 
 const About = () => {
   return (
@@ -42,7 +44,7 @@ const About = () => {
             <div class="col-8 d-block d-md-none mx-auto">
               <Image
                 className="pic guitar smallGuitar"
-                src="../assets/Sammusicpic.jpg"
+                src={thunderbird}
                 alt="trying my best"
               />
             </div>
@@ -75,11 +77,7 @@ const About = () => {
             </div>
             {/* BIG SCREEN PIC GUY */}
             <div class="col-md-4 d-none d-md-block">
-              <img
-                class="pic guitar"
-                src="../assets/Sammusicpic.jpg"
-                alt="trying my best"
-              />
+              <img class="pic guitar" src={guitar} alt="trying my best" />
             </div>
           </div>
         </div>

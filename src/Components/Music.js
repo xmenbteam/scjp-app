@@ -1,4 +1,7 @@
 import React from "react";
+import samparrymusic from "../Assets/samparrymusic.png";
+import xmenbteam from "../Assets/xmbt-star.png";
+import thecgband from "../Assets/thecgband.png";
 
 const Music = () => {
   return (
@@ -13,7 +16,7 @@ const Music = () => {
                   <div class="music-card mr-2 d-inline-block shadow-lg">
                     <div class="card-img-top">
                       <img
-                        src="../assets/samparrymusic.png"
+                        src={samparrymusic}
                         alt="Sam Parry Music website"
                         class="music-website-image img-fluid border-radius p-4"
                       />
@@ -33,7 +36,7 @@ const Music = () => {
                   <div class="music-card mr-2 d-inline-block shadow-lg">
                     <div class="card-img-top">
                       <img
-                        src="../assets/xmbt-star.png"
+                        src={xmenbteam}
                         alt="xmenbteam website"
                         class="music-website-image img-fluid border-radius p-4"
                       />
@@ -54,7 +57,7 @@ const Music = () => {
                   <div class="music-card art-card mr-2 d-inline-block shadow-lg">
                     <div class="card-img-top">
                       <img
-                        src="../assets/thecgband.png"
+                        src={thecgband}
                         alt="The CG Band website"
                         class="music-website-image img-fluid border-radius p-4"
                       />

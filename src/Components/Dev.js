@@ -1,5 +1,16 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
+import devpic from "../Assets/samdevpic.jpeg";
+import html from "../Assets/logos/html.png";
+import css from "../Assets/logos/css.png";
+import javascript from "../Assets/logos/javascript.png";
+import nodejs from "../Assets/logos/nodejs.png";
+import postgres from "../Assets/logos/postgres.png";
+import react from "../Assets/logos/react.png";
+import firebase from "../Assets/logos/firebase.png";
+import pokemon from "../Assets/pokemon.png";
+import ncnews from "../Assets/NC-News.png";
+import argulympics from "../Assets/ArguScreenShot.png";
 
 const Dev = () => {
   return (
@@ -9,7 +20,7 @@ const Dev = () => {
         <div class="col-md-4 col-sm-6 col-12 mb-1 mx-auto">
           <Image
             className="pic devpic"
-            src="../assets/samdevpic.jpeg"
+            src={devpic}
             alt="me and my computer"
             fluid
           />
@@ -36,56 +47,32 @@ const Dev = () => {
               Here are some of the languages I've studied on my course:
               <div class="logo-container d-flex flex-md-row flex-wrap justify-content-center">
                 <div class="square">
-                  <img
-                    class="logo"
-                    src="../assets//logos/html.png"
-                    alt="html"
-                  />
+                  <Image className="logo" src={html} alt="html" />
                   <h6>HTML 5</h6>
                 </div>
                 <div class="square">
-                  <img class="logo" src="../assets/logos/css.png" alt="CSS" />
+                  <Image className="logo" src={css} alt="CSS" />
                   <h6>CSS</h6>
                 </div>
                 <div class="square">
-                  <img
-                    class="logo"
-                    src="../assets/logos/javascript.png"
-                    alt="javascript"
-                  />
+                  <Image className="logo" src={javascript} alt="javascript" />
                   <h6>JavaScript</h6>
                 </div>
                 <div class="square">
-                  <img
-                    class="logo"
-                    src="../assets/logos/nodejs.png"
-                    alt="node js"
-                  />
+                  <Image className="logo" src={nodejs} alt="node js" />
                   <h6>Node JS</h6>
                 </div>
 
                 <div class="square">
-                  <img
-                    class="logo"
-                    src="../assets/logos/postgres.png"
-                    alt="postgres"
-                  />
+                  <Image className="logo" src={postgres} alt="postgres" />
                   <h6>PostgreSQL</h6>
                 </div>
                 <div class="square">
-                  <img
-                    class="logo"
-                    src="../assets/logos/react.png"
-                    alt="React"
-                  />
+                  <Image className="logo" src={react} alt="React" />
                   <h6>React</h6>
                 </div>
                 <div class="square">
-                  <img
-                    class="logo"
-                    src="../assets/logos/firebase.png"
-                    alt="Firebase"
-                  />
+                  <Image className="logo" src={firebase} alt="Firebase" />
                   <h6>Firebase</h6>
                 </div>
               </div>
@@ -99,10 +86,10 @@ const Dev = () => {
           <div class="col-md-4 col-12 ">
             <div class="dev-card d-inline-block shadow-lg">
               <div class="card-img-top">
-                <img
-                  src="../assets/Pokemon Battler Cover Photo.png"
+                <Image
+                  src={pokemon}
                   alt="pokemon battler"
-                  class="project-image img-fluid border-radius p-4"
+                  className="project-image img-fluid border-radius p-4"
                 />
               </div>
               <div class="card-body">
@@ -125,10 +112,10 @@ const Dev = () => {
           <div class="col-md-4 col-12">
             <div class="dev-card d-inline-block shadow-lg">
               <div class="card-img-top">
-                <img
-                  src="../assets/NC News.png"
+                <Image
+                  src={ncnews}
                   alt="NC News"
-                  class="project-image img-fluid border-radius p-4"
+                  className="project-image img-fluid border-radius p-4"
                 />
               </div>
               <div class="card-body">
@@ -160,10 +147,10 @@ const Dev = () => {
           <div class="col-md-4 col-12">
             <div class="dev-card d-inline-block shadow-lg">
               <div class="card-img-top">
-                <img
-                  src="../assets/ArguScreenShot.png"
+                <Image
+                  src={argulympics}
                   alt="the argulympics"
-                  class="project-image img-fluid border-radius p-4"
+                  className="project-image img-fluid border-radius p-4"
                 />
               </div>
               <div class="card-body">
