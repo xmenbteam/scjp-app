@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/scjp-app/static/css/main.5930250a.chunk.css",
+    "main.js": "/scjp-app/static/js/main.3ff44184.chunk.js",
+    "main.js.map": "/scjp-app/static/js/main.3ff44184.chunk.js.map",
+    "runtime-main.js": "/scjp-app/static/js/runtime-main.dcb393ed.js",
+    "runtime-main.js.map": "/scjp-app/static/js/runtime-main.dcb393ed.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/scjp-app/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.34d66a11.chunk.js": "/scjp-app/static/js/2.34d66a11.chunk.js",
+    "static/js/2.34d66a11.chunk.js.map": "/scjp-app/static/js/2.34d66a11.chunk.js.map",
+    "index.html": "/scjp-app/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/scjp-app/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.5930250a.chunk.css.map": "/scjp-app/static/css/main.5930250a.chunk.css.map",
+    "static/js/2.34d66a11.chunk.js.LICENSE.txt": "/scjp-app/static/js/2.34d66a11.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/scjp-app/static/media/website-background.3f46501a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcb393ed.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.34d66a11.chunk.js",
+    "static/css/main.5930250a.chunk.css",
+    "static/js/main.3ff44184.chunk.js"
+  ]
+}
