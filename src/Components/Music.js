@@ -7,7 +7,7 @@ const Music = () => {
   return (
     <div>
       <section id="music" class="music container-fluid">
-        <h1 class="title music-title text-center">sam the musician</h1>
+        <h1 class="musicTitle music-title text-center">sam the musician</h1>
         <div class="cover">
           <div class="content text-center">
             <div class="websites row flex-wrap">
