@@ -44,7 +44,7 @@ const About = () => {
             <div class="col-8 d-block d-md-none mx-auto">
               <Image
                 className="pic guitar smallGuitar"
-                src={thunderbird}
+                src={guitar}
                 alt="trying my best"
               />
             </div>

@@ -29,7 +29,7 @@ const Home = () => {
         <div class="d-block d-lg-none smallScreenPic">
           <Image
             className="smallScreenPic pic"
-            src="../assets/Headshot-top.jpg"
+            src={headshot}
             alt="Headshot by Charlotte Wellings"
             fluid
           />
