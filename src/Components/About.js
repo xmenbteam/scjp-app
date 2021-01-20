@@ -13,8 +13,8 @@ const About = () => {
             <div class="col-md-4">
               <Image
                 className="pic thunderbirds "
-                src="../assets/thunderbirds.jpeg"
-                alt="an absolute legend"
+                src={thunderbird}
+                alt="thunderbird sam"
                 fluid
               />
             </div>
