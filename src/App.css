@@ -36,3 +36,352 @@
     transform: rotate(360deg);
   }
 }
+
+html {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  background: var(--dark-green);
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+:root {
+  --pink: #ef476fff;
+  --orange: #ffd166ff;
+  --green: #06d6a0ff;
+  --light-blue: #118ab2ff;
+  --dark-green: #073b4cff;
+}
+
+body {
+  justify-content: center;
+  margin: auto;
+  height: 100%;
+  max-width: 100vw;
+  background-image: url("./website-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.title {
+  color: var(--pink);
+  -webkit-text-stroke: 0.2px black;
+}
+
+/* NAV SECTION */
+
+.navbar {
+  background-color: #ffd166ff;
+  /* padding: 0 !important; */
+}
+
+.navBrand {
+  color: var(--orange);
+}
+
+.navLink {
+  color: var(--orange);
+}
+
+.toggler {
+  background-color: var(--orange);
+}
+
+/* HOME */
+
+header {
+  /* height: 100%; */
+  overflow: hidden;
+}
+
+.cj {
+  color: var(--pink);
+}
+
+.welcome-pic {
+  width: 100%;
+}
+
+.pic {
+  border-radius: 1rem;
+}
+
+.panel {
+  position: absolute;
+  top: 4vmin;
+  left: 8vmin;
+  width: 30vmin;
+  height: 19vmin;
+  background: var(--orange);
+  border-radius: 3px;
+  text-align: left;
+  box-shadow: 0px 25px 42px rbg(0, 0, 0, 0.2);
+  z-index: 1;
+  color: (--dark-green);
+  border-radius: 10%;
+  padding-left: 1vmin;
+
+  /* position: absolute;
+  width: 718px;
+  height: 439px;
+  left: 0px;
+  top: 124px;
+
+  background: #ffd166;
+  border-radius: 19px; */
+}
+
+.panel-item {
+  color: var(--dark-green);
+}
+
+.panel-paragraph {
+  background: var(--dark-green);
+  color: var(--orange);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.home-row {
+  position: relative;
+}
+
+/* ABOUT ME SECTION */
+
+.thunderbirds {
+  margin-bottom: 1vmin;
+  height: 33vmin;
+}
+
+.guitar {
+  margin-bottom: 1vmin;
+  height: 33vmin;
+}
+
+.about-me {
+  text-align: justify;
+}
+
+.hello-world {
+  color: var(--pink);
+}
+
+.panel-paragraph {
+  padding: 2rem;
+}
+
+/* DEV SECTION */
+
+.dev {
+  margin-left: 0.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.square {
+  max-height: 0.5rem;
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  margin-bottom: 5rem;
+}
+
+.logo {
+  height: 5rem;
+  padding-top: 1rem;
+}
+
+.logo-container {
+  justify-content: space-around;
+}
+
+.devpic {
+  /* height: 19rem; */
+  margin-bottom: 1rem;
+  border-radius: 5%;
+  width: 80vmin;
+  margin-bottom: 1vmin;
+}
+
+.devpiccont {
+  text-align: center;
+}
+
+.logo-container {
+  padding-bottom: 0.5rem;
+}
+
+.projects-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-image {
+  margin-top: 0.5rem;
+  height: 10rem;
+}
+
+.project-cards {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  /* max-width: 28rem; */
+}
+
+.dev-card {
+  margin-top: 1rem;
+}
+
+/* MUSIC SECTION */
+
+.card {
+  height: 25rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+}
+
+.music-website-image {
+  height: 15rem;
+}
+
+.music-p {
+  margin-bottom: 2rem;
+}
+
+.music-card {
+  /* width: 70vmin; */
+  margin-bottom: 1rem;
+  background-color: var(--light-blue);
+}
+
+.card-title {
+  color: var(--orange);
+}
+
+.card-text {
+  color: var(--orange);
+}
+
+.card-body {
+  background-color: var(--dark-green);
+  opacity: 0.8;
+}
+
+/* CONTACT */
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 2rem;
+  background-color: var(--dark-green);
+}
+
+/* Rectangle 1 */
+/* 
+position: absolute;
+width: 718px;
+height: 439px;
+left: 0px;
+top: 124px;
+
+background: #FFD166;
+border-radius: 19px; */
+
+/* sam cj parry */
+
+/* position: absolute;
+width: 322px;
+height: 55px;
+left: 37px;
+top: 152px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 66px;
+
+color: #000000; */
+
+/* if you know, you know... */
+
+/* position: absolute;
+width: 322px;
+height: 43px;
+left: 37px;
+top: 220px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+
+color: #000000; */
+
+/* DEV // MUSICIAN // VO // */
+
+/* position: absolute;
+width: 506px;
+height: 240px;
+left: 37px;
+top: 299px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000; */
+
+/* sam cj parry */
+
+/* position: absolute;
+width: 322px;
+height: 55px;
+left: 198px;
+top: 673px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000; */
+
+/* DEV // MUSICIAN // VO // */
+
+/* position: absolute;
+width: 242px;
+height: 207px;
+left: 198px;
+top: 749px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000; */
+
+/* Sam_Parry_22 1 */
+
+/* position: absolute;
+width: 1505px;
+height: 1004px;
+left: -394px;
+top: 551px;
+
+background: url(Sam_Parry_22.jpg); */
